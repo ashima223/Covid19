@@ -1,0 +1,184 @@
+* {
+   box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "San Francisco", arial, sans-serif;
+}
+
+.banner {
+    background-image: url(../Covid-19/Logo/Topmost.jpg);
+    height: 40vw;
+    min-height: 60px;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+nav .menu-btn {
+    color: burlywood;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav .menu-btn:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+nav {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+}
+
+nav .logo {
+    width: 100%;
+    height: auto;
+    max-width: 25px;
+    margin: 0px 15px;
+  }
+
+section {
+    text-align: center;
+    height: 100%;
+    padding: 75px 0px;
+    min-height: 40vh;
+    background-color: lightgray;
+    
+}
+  
+section h2 {
+    margin-bottom: 50px;
+}
+
+main {
+  flex: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+section:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+section h2 span {
+  padding: 10px 55px;
+  border-radius: 20px;
+  background: #ddd;
+  background: linear-gradient(to right, rgb(222, 250, 41), rgb(208, 221, 27));
+}
+
+.about_content {
+  text-align: left;
+  justify-content: center;
+  color: black;
+  font-weight: 900;
+  padding-bottom: 10px 0px 20px 0px;
+  padding-left: 10px;
+}
+
+section h2{
+  color:  rgb(161, 135, 222);
+}
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 5px 10px;
+  background-color: lightcyan;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  background-color: lightblue;
+}
+
+.tg_handle{
+  color: rgb(0, 115, 255);
+}
+
+
+
+
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.profile_img {
+  border-radius: 50%;
+  height: 200px;
+}
+.profile_name {
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  margin: 20px 0px 30px 0px;
+}
+
+.sm-handle {
+  display: flex;
+  justify-content: center;
+}
+
+.sm-handle a {
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 10px 20px;
+  background-color: rgb(125 125 125 / 25%);
+  text-decoration: none;
+}
+
+.sm-handle a:hover {
+  background-color: rgb(30 30 30 / 25%);
+}
+
+.linkdn_handle {
+  color: #0e76a8;
+}
+
+.insta_handle {
+  color: #dd2a7b;
+}
+
+.yt_handle {
+  color: #e62117;
+}
+
+@media screen and (max-width: 700px) {
+  .sm-handle,
+  nav {
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+}
+
+
+
